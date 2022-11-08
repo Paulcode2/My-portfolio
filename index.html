@@ -411,7 +411,12 @@
                   <input type="text" required placeholder="EMAIL" />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="SUBJECT" />
+                  <input
+                    type="text"
+                    minlength="5"
+                    required
+                    placeholder="SUBJECT"
+                  />
                 </div>
                 <div class="input-control">
                   <textarea
@@ -419,15 +424,15 @@
                     id=""
                     cols="15"
                     rows="8"
+                    minlength="5"
+                    maxlength="50"
                     placeholder="MESSAGE...."
                   ></textarea>
                 </div>
                 <div class="submit-btn">
                   <div class="btn-con">
                     <button>
-                      <a href="" class="main-btn">
-                        <span class="btn-t">Submit</span>
-                      </a>
+                      <span class="btn-t">Submit</span>
                     </button>
                   </div>
                 </div>
