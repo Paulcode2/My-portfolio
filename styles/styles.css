@@ -905,6 +905,24 @@ section {
           justify-content: flex-start;
 }
 
+.contact-content-con .right-contact .submit-btn button {
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 10rem;
+  cursor: pointer;
+  background-color: var(--color--secondary);
+}
+
+.contact-content-con .right-contact .submit-btn button:hover {
+  background-color: var(--color--grey-1);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.contact-content-con .right-contact .submit-btn button .btn-t {
+  font-size: 1.1rem;
+}
+
 /*independent content*/
 .btn-con {
   display: -webkit-box;

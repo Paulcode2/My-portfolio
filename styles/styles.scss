@@ -669,6 +669,20 @@ section{
         .submit-btn{
             display: flex;
             justify-content: flex-start;
+            button{
+                padding: 1rem;
+                border-radius: 2rem;
+                width: 10rem;
+                cursor: pointer;
+                background-color: var(--color--secondary);
+                &:hover{
+                    background-color: var(--color--grey-1);
+                    transition: all .4s ease-in-out;
+                }
+                .btn-t{
+                    font-size: 1.1rem;
+                }
+            }
         }
     }
 }
